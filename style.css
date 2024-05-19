@@ -1,0 +1,136 @@
+h1{
+    color: green;
+    text-align: center;    
+}
+.profile-photo {
+    display: block;
+    margin: 0 auto;
+}
+.sobre_mi {
+    text-align: center;
+    font-size: x-large;
+}
+.nombre {
+    background-color: teal;
+    color: white;
+}
+.Apellido {
+    background-color: rgb(128, 49, 0);
+    color: white;
+}
+.Edad {
+    background-color: teal;
+    color: white;
+}
+.Fecha {
+    background-color: rgb(128, 49, 0);
+    color: white;
+}
+.Localidad {
+    background-color: teal;
+    color: white;
+}
+.Provincia {
+    background-color: rgb(128, 49, 0);
+    color: white;
+}
+.Correo {
+    background-color: teal;
+    color: white;
+}
+.linkedin {
+    background-color: rgb(128, 49, 0);
+    color: white;
+}
+ul li.linkedin a {
+    color: yellowgreen;
+}
+ul li.Correo a {
+    color: yellowgreen;
+}
+body {
+    background-image: url("fondo.png");
+    background-size: cover;
+    background-position: center; 
+    font-family: Arial, sans-serif;
+}
+img.profile-photo {
+    display: block;
+    margin: 0 auto;
+    max-width: 480px;
+    border-radius: 50%;
+}
+ul {
+    list-style: none;
+    text-align: left;
+    margin: 20px 0 0 0;
+    padding: 20px;
+    width: 97%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto; /* Centrar el contenedor */
+}
+
+/* Estilos para el contenedor del perfil */
+.profile {
+    width: 50%; /* El formulario ocupará la mitad del contenedor */
+    margin-left: 10px; /* Espacio entre los contenedores */
+    box-sizing: border-box; /* Incluir el padding y el border en el ancho */
+}
+
+/* Estilos para el contenedor del formulario */
+.form {
+    width: 50%; /* El formulario ocupará la mitad del contenedor */
+    margin-left: 10px; /* Espacio entre los contenedores */
+    box-sizing: border-box; /* Espacio entre los contenedores */
+}
+
+/* Estilos para el formulario */
+form {
+    max-width: 100%; /* Ocupar todo el ancho del contenedor */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="date"],
+input[type="time"],
+input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
